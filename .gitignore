@@ -108,6 +108,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.ce_env
+ce_env/
 .env
 .venv
 env/
@@ -148,3 +150,10 @@ dmypy.json
 # For manim
 /videos
 /custom_config.yml
+
+# vscode
+/.vscode/
+
+# projects
+projects/
+/test.*
